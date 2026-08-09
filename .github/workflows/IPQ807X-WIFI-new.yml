@@ -17,6 +17,10 @@ env:
   FIRMWARE_RELEASE: true
   FIRMWARE_TAG: IPQ807x-WIFI
   TZ: Asia/Shanghai
+  
+# 全局权限配置
+permissions:
+  contents: write
 
 jobs:
   Build:
